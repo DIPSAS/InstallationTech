@@ -1,0 +1,50 @@
+# Project information
+site_name: 'DIPS Installation technologies workshop'
+site_description: 'Internal intallation tech course for DIPS AS'
+site_author: 'Eirik Rasmussen / Tord Heimdal'
+site_url: 'https://github.com/DIPSAS/InstallationTech'
+
+# Navigation
+nav: 
+  - Home: index.md
+  - Exercises:
+    - '01: Install Chocolatey' : exercises/01-InstallChocolatey.md
+    - '02: Install VSCode' : exercises/02-InstallVSCode.md
+    - '03: Create Package' : exercises/03-CreatePackage.md
+    - '04: Set Script Permissions' : exercises/04-SetScriptPermissions.md
+    - '05: Create Package' : exercises/05-CreatePackage.md
+    - '06: Install Package' : exercises/06-ScriptToInstallPackage.md
+  - Resources: resources.md
+
+# Repository
+repo_name: 'DIPSAS/InstallationTech'
+repo_url: 'https://github.com/DIPSAS/InstallationTech'
+
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/DIPSAS'
+    - type: 'twitter'
+      link: 'https://twitter.com/dipsasa'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
