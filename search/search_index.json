@@ -26,11 +26,6 @@
             "title": "Editor"
         },
         {
-            "location": "/exercises/",
-            "text": "Excersize 1: Install chocolatey\n\n\nExcersize 2: Find and Install Visual Studio Code\n\n\nExercise  3: create package manually including setup of nuspec\n\n\nExercise 4: Setting script execution permissions in powershell\n\n\nExcersize 5: create package with installscript, using dips-choco-utility\n\n\nExercise 6: Create a powershell script to install package requiring parameters",
-            "title": "Exercises"
-        },
-        {
             "location": "/resources/",
             "text": "Resources\n\u00b6\n\n\nChocolatey homepage",
             "title": "Resources"
