@@ -1,4 +1,4 @@
-# Exercise 04: Create Package requiring installscript
+# Exercise 05: Create Package requiring installscript
 
 
 In the src code folder you will find an executable named `WpfApp2.exe`.

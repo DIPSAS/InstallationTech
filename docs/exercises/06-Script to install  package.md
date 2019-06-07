@@ -1,4 +1,4 @@
-# Exercise 07: Script to install package
+# Exercise 06: Script to install package
 
 
 

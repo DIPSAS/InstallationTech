@@ -1,17 +1,16 @@
-### Exercise 3: Create a package the old fashioned way
+# Exercise 04: Create Package Manually
 
- 
 
-This is meant to be an exploratory exercise and intentionally doesn't doesn't provide much direction. Most other exercises contain all steps and are very reflective.
+In the src code folder you will find an executable named `WpfApp1.exe`.
 
- 
+1. Setup the nuspec for  a package with id=WpfApp1, and version = 0.0.1
+   The package should contain only the file WpfApp1.exe in its bin folder
+   No dependencies.
 
-1. Download Google Chrome from <https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi> and <https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise.msi>. OFFLINE: These files should be in C:\vagrant\resources\installers.
-2. From a command line, call `choco new googlechrome`
-3. Go into the googlechrome folder and read the readme, look through the files that were created and try to create a package just using the 64 bit Google Chrome MSI.
-4. Run `choco pack`
-5. Install the package using Chocolatey - `choco install googlechrome -y -s .`
+2. Create the package 
+3. Upload it to the chocolatey feed `InstallationCourse` on http://dips-nuget
+4. Install the package
+5. Run `refreshenv`on the powershell cmdline
+6. Start the application by typing PS> WpfApp1 on the powershell cmdline.
 
- 
 
-Note that first time packaging this kind of throws you into the thick of it to see if the information provided is enough to move forward.
