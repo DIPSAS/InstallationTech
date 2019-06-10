@@ -13,7 +13,7 @@
         <meta name="description" content="Internal intallation tech course for DIPS AS">
       
       
-        <link rel="canonical" href="https://github.com/DIPSAS/InstallationTech/exercises/04-SetScriptPermissions/">
+        <link rel="canonical" href="https://github.com/DIPSAS/InstallationTech/exercises/07-Uninstall/">
       
       
         <meta name="author" content="Eirik Rasmussen / Tord Heimdal">
@@ -42,7 +42,7 @@
     
     
       
-        <title>04: Set Script Permissions - DIPS Installation technologies workshop</title>
+        <title>Exercise 07: Optional, Uninstall - DIPS Installation technologies workshop</title>
       
     
     
@@ -110,7 +110,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#exercise-04-set-permissions-to-run-scripts-in-powershell" tabindex="1" class="md-skip">
+      <a href="#exercise-07-optional-uninstall" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -136,7 +136,7 @@
                 DIPS Installation technologies workshop
               </span>
               <span class="md-header-nav__topic">
-                04: Set Script Permissions
+                Exercise 07: Optional, Uninstall
               </span>
             
           
@@ -263,12 +263,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
       Exercises
@@ -320,20 +318,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="04: Set Script Permissions" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../04-SetScriptPermissions/" title="04: Set Script Permissions" class="md-nav__link">
       04: Set Script Permissions
     </a>
-    
   </li>
 
         
@@ -405,12 +394,20 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/DIPSAS/InstallationTech/edit/master/docs/exercises/04-SetScriptPermissions.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/DIPSAS/InstallationTech/edit/master/docs/exercises/07-Uninstall.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="exercise-04-set-permissions-to-run-scripts-in-powershell">Exercise 04: Set-permissions to run scripts in powershell<a class="headerlink" href="#exercise-04-set-permissions-to-run-scripts-in-powershell" title="Permanent link">&para;</a></h1>
+                <h1 id="exercise-07-optional-uninstall">Exercise 07: Optional, Uninstall<a class="headerlink" href="#exercise-07-optional-uninstall" title="Permanent link">&para;</a></h1>
 <ol>
-<li>Set permissions to Bypass for CurrentUser</li>
+<li>Run PS&gt;choco uninstall wpfapp2</li>
+<li>Verify C:\Programdata\chocolatey\lib\wpfapp2 is removed</li>
+<li>Verify C:\dips\wpfapp2.exe is still present</li>
+<li>Remove the file manually</li>
+<li>Add the file chocolateyUninstall.ps1 to the exercise 5 directory</li>
+<li>Run choco pack to build </li>
+<li>Install the package again using the script from exercise 6</li>
+<li>PS&gt;choco uninstall wpfapp2</li>
+<li>Verify C:\dips\wpfapp2.exe has been removed</li>
 </ol>
                 
                   
@@ -428,41 +425,6 @@
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-          <a href="../03-CreatePackage/" title="03: Create Package" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-            </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                03: Create Package
-              </span>
-            </div>
-          </a>
-        
-        
-          <a href="../05-CreatePackage/" title="05: Create Package" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                05: Create Package
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
