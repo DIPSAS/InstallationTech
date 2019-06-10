@@ -1,5 +1,4 @@
-# Exercise 03: Create Package Manually
-
+# Exercise 3: Create Package Manually
 
 In the src code folder you will find an executable named `WpfApp1.exe`.
 
