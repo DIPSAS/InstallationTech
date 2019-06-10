@@ -1,12 +1,7 @@
-# Exercise 01: Install Chocolatey and Notepad++
+# Exercise 01: Install Chocolatey 
 
 ## Install - Chocolatey
-
-1) Add your Windows server to `inventory/servers.inventory` and update `[windows:vars]` with connection details, like username, connection method etc.
-
+Follow the instructions at https://chocolatey.org/install and install chocolatey using Powershell
 
 
-## Install Notepad++ using chocolatey
-
-1) 
 
