@@ -37,7 +37,7 @@
         },
         {
             "location": "/exercises/01-InstallChocolatey/",
-            "text": "Exercise 1: Install Chocolatey\n\u00b6\n\n\nInstall - Chocolatey\n\u00b6\n\n\nFollow the instructions at https://chocolatey.org/install and install chocolatey using Powershell",
+            "text": "Exercise 1: Install Chocolatey\n\u00b6\n\n\nInstall - Chocolatey\n\u00b6\n\n\nFollow the instructions at https://chocolatey.org/install and install Chocolatey using Powershell",
             "title": "Exercise 1: Install Chocolatey"
         },
         {
@@ -47,67 +47,67 @@
         },
         {
             "location": "/exercises/01-InstallChocolatey/#install-chocolatey",
-            "text": "Follow the instructions at https://chocolatey.org/install and install chocolatey using Powershell",
+            "text": "Follow the instructions at https://chocolatey.org/install and install Chocolatey using Powershell",
             "title": "Install - Chocolatey"
         },
         {
             "location": "/exercises/02-InstallVSCode/",
-            "text": "Exercise 2: Install Visual Studio Code\n\u00b6\n\n\n\n\nCall \nchoco install vscode -y\n\n\nNote the message \"Environment Vars have changed\".\n\n\nType \ncode\n. Notice that it errors.\n\n\nReopen powershell.\n\n\nType \ncode\n. Note that it opens Visual Studio Code.",
+            "text": "Exercise 2: Install Visual Studio Code\n\u00b6\n\n\n\n\nCall \nchoco install vscode -y\n\n\nNotice the message \"Environment Vars have changed\".\n\n\nType \ncode\n. Notice that it errors.\n\n\nReopen powershell.\n\n\nType \ncode\n. Notice that it opens Visual Studio Code.",
             "title": "Exercise 2: Install Visual Studio Code"
         },
         {
             "location": "/exercises/02-InstallVSCode/#exercise-2-install-visual-studio-code",
-            "text": "Call  choco install vscode -y  Note the message \"Environment Vars have changed\".  Type  code . Notice that it errors.  Reopen powershell.  Type  code . Note that it opens Visual Studio Code.",
+            "text": "Call  choco install vscode -y  Notice the message \"Environment Vars have changed\".  Type  code . Notice that it errors.  Reopen powershell.  Type  code . Notice that it opens Visual Studio Code.",
             "title": "Exercise 2: Install Visual Studio Code"
         },
         {
             "location": "/exercises/03-CreatePackage/",
-            "text": "Exercise 3: Create Package Manually\n\u00b6\n\n\nIn the src code folder you will find an executable named \nWpfApp1.exe\n.\n\n\n\n\n\n\nSetup the nuspec for a package with id=WpfApp1, and version = 0.0.1.\n   The package should contain only the file WpfApp1.exe in its bin folder.\n   No dependencies.\n\n\n\n\n\n\nCreate the package \n\n\n\n\nUpload it to the chocolatey feed \nInstallationCourse\n on http://dips-nuget\n\n\nInstall the package\n\n\nRun \nrefreshenv\non the powershell cmdline\n\n\nStart the application by typing PS> WpfApp1 on the powershell cmdline.",
+            "text": "Exercise 3: Create Package Manually\n\u00b6\n\n\nIn the src code folder you will find an executable named \nWpfApp1.exe\n.\n\n\n\n\n\n\nSetup the nuspec for a package with id=WpfApp1, and version = 0.0.1.\n   The package should contain only the file WpfApp1.exe in its bin folder.\n   No dependencies.\n\n\n\n\n\n\nCreate the package.\n\n\n\n\nUpload it to the chocolatey feed \nInstallationCourse\n on http://dips-nuget.\n\n\nInstall the package.\n\n\nRun \nrefreshenv\non the powershell cmdline.\n\n\nStart the application by typing PS> WpfApp1 on the powershell cmdline.",
             "title": "Exercise 3: Create Package Manually"
         },
         {
             "location": "/exercises/03-CreatePackage/#exercise-3-create-package-manually",
-            "text": "In the src code folder you will find an executable named  WpfApp1.exe .    Setup the nuspec for a package with id=WpfApp1, and version = 0.0.1.\n   The package should contain only the file WpfApp1.exe in its bin folder.\n   No dependencies.    Create the package    Upload it to the chocolatey feed  InstallationCourse  on http://dips-nuget  Install the package  Run  refreshenv on the powershell cmdline  Start the application by typing PS> WpfApp1 on the powershell cmdline.",
+            "text": "In the src code folder you will find an executable named  WpfApp1.exe .    Setup the nuspec for a package with id=WpfApp1, and version = 0.0.1.\n   The package should contain only the file WpfApp1.exe in its bin folder.\n   No dependencies.    Create the package.   Upload it to the chocolatey feed  InstallationCourse  on http://dips-nuget.  Install the package.  Run  refreshenv on the powershell cmdline.  Start the application by typing PS> WpfApp1 on the powershell cmdline.",
             "title": "Exercise 3: Create Package Manually"
         },
         {
             "location": "/exercises/04-SetScriptPermissions/",
-            "text": "Exercise 04: Set-permissions to run scripts in powershell\n\u00b6\n\n\n\n\nSet permissions to Bypass for CurrentUser",
+            "text": "Exercise 04: Set-permissions to run scripts in powershell\n\u00b6\n\n\n\n\nSet permissions to Bypass for CurrentUser.",
             "title": "Exercise 04: Set-permissions to run scripts in powershell"
         },
         {
             "location": "/exercises/04-SetScriptPermissions/#exercise-04-set-permissions-to-run-scripts-in-powershell",
-            "text": "Set permissions to Bypass for CurrentUser",
+            "text": "Set permissions to Bypass for CurrentUser.",
             "title": "Exercise 04: Set-permissions to run scripts in powershell"
         },
         {
             "location": "/exercises/05-CreatePackage/",
-            "text": "Exercise 5: Create Package containing an installscript\n\u00b6\n\n\nIn the src code folder you will find an executable named \nWpfApp2.exe\n.\n\n\n\n\n\n\nSetup the nuspec for  a package with id=WpfApp2, and version = 0.0.1\n   The package should contain only the file WpfApp2.exe in its bin folder\n   The package should also contain the installscript \nchocolateyInstall.ps1\n\n\n\n\n\n\nThe package should have a dependency to dips-choco-utility minimum version 1.0.0\n\n\n\n\n\n\nCreate the package \n\n\n\n\n\n\nOpen the *.nupkg file with nuget package explorerVerify metadata, contents and dependencies.",
+            "text": "Exercise 5: Create Package containing an installscript\n\u00b6\n\n\nIn the src code folder you will find an executable named \nWpfApp2.exe\n.\n\n\n\n\n\n\nSetup the nuspec for a package with id=WpfApp2, and version = 0.0.1.\n   The package should contain only the file WpfApp2.exe in its bin folder.\n   The package should also contain the installscript \nchocolateyInstall.ps1\n.\n\n\n\n\n\n\nThe package should have a dependency to dips-choco-utility minimum version 1.0.0.\n\n\n\n\n\n\nCreate the package.\n\n\n\n\n\n\nOpen the *.nupkg file with nuget package explorer. Verify metadata, contents and dependencies.",
             "title": "Exercise 5: Create Package containing an installscript"
         },
         {
             "location": "/exercises/05-CreatePackage/#exercise-5-create-package-containing-an-installscript",
-            "text": "In the src code folder you will find an executable named  WpfApp2.exe .    Setup the nuspec for  a package with id=WpfApp2, and version = 0.0.1\n   The package should contain only the file WpfApp2.exe in its bin folder\n   The package should also contain the installscript  chocolateyInstall.ps1    The package should have a dependency to dips-choco-utility minimum version 1.0.0    Create the package     Open the *.nupkg file with nuget package explorerVerify metadata, contents and dependencies.",
+            "text": "In the src code folder you will find an executable named  WpfApp2.exe .    Setup the nuspec for a package with id=WpfApp2, and version = 0.0.1.\n   The package should contain only the file WpfApp2.exe in its bin folder.\n   The package should also contain the installscript  chocolateyInstall.ps1 .    The package should have a dependency to dips-choco-utility minimum version 1.0.0.    Create the package.    Open the *.nupkg file with nuget package explorer. Verify metadata, contents and dependencies.",
             "title": "Exercise 5: Create Package containing an installscript"
         },
         {
             "location": "/exercises/06-ScriptToInstallPackage/",
-            "text": "Exercise 06: Script to install package\n\u00b6\n\n\n\n\n\n\nWrite a powershellscript to install the package from exercise 5.\n   The package takes a parameter \nInstallLocation\nthat specifies where the executable should be installed to.\n\n\n\n\n\n\nRun the script to install the package.\n\n\n\n\n\n\nVerify that the executable is copied to \nInstallLocation",
+            "text": "Exercise 06: Script to install package\n\u00b6\n\n\n\n\n\n\nWrite a powershell script to install the package from exercise 5.\n   The package takes a parameter \nInstallLocation\n that specifies where the executable should be installed to.\n\n\n\n\n\n\nRun the script to install the package.\n\n\n\n\n\n\nVerify that the executable is copied to \nInstallLocation\n.",
             "title": "Exercise 06: Script to install package"
         },
         {
             "location": "/exercises/06-ScriptToInstallPackage/#exercise-06-script-to-install-package",
-            "text": "Write a powershellscript to install the package from exercise 5.\n   The package takes a parameter  InstallLocation that specifies where the executable should be installed to.    Run the script to install the package.    Verify that the executable is copied to  InstallLocation",
+            "text": "Write a powershell script to install the package from exercise 5.\n   The package takes a parameter  InstallLocation  that specifies where the executable should be installed to.    Run the script to install the package.    Verify that the executable is copied to  InstallLocation .",
             "title": "Exercise 06: Script to install package"
         },
         {
             "location": "/exercises/07-Uninstall/",
-            "text": "Exercise 07: Optional, Uninstall\n\u00b6\n\n\n\n\nRun PS>choco uninstall wpfapp2\n\n\nVerify C:\\Programdata\\chocolatey\\lib\\wpfapp2 is removed\n\n\nVerify C:\\dips\\wpfapp2.exe is still present\n\n\nRemove the file manually\n\n\nAdd the file chocolateyUninstall.ps1 to the exercise 5 directory\n\n\nRun choco pack to build \n\n\nInstall the package again using the script from exercise 6\n\n\nPS>choco uninstall wpfapp2\n\n\nVerify C:\\dips\\wpfapp2.exe has been removed",
+            "text": "Exercise 07: Optional, Uninstall\n\u00b6\n\n\n\n\nRun PS>choco uninstall wpfapp2.\n\n\nVerify C:\\Programdata\\chocolatey\\lib\\wpfapp2 is removed.\n\n\nVerify C:\\dips\\wpfapp2.exe is still present.\n\n\nRemove the file manually.\n\n\nAdd the file chocolateyUninstall.ps1 to the exercise 5 directory.\n\n\nRun choco pack to build.\n\n\nInstall the package again using the script from exercise 6.\n\n\nPS>choco uninstall wpfapp2.\n\n\nVerify C:\\dips\\wpfapp2.exe has been removed.",
             "title": "Exercise 07: Optional, Uninstall"
         },
         {
             "location": "/exercises/07-Uninstall/#exercise-07-optional-uninstall",
-            "text": "Run PS>choco uninstall wpfapp2  Verify C:\\Programdata\\chocolatey\\lib\\wpfapp2 is removed  Verify C:\\dips\\wpfapp2.exe is still present  Remove the file manually  Add the file chocolateyUninstall.ps1 to the exercise 5 directory  Run choco pack to build   Install the package again using the script from exercise 6  PS>choco uninstall wpfapp2  Verify C:\\dips\\wpfapp2.exe has been removed",
+            "text": "Run PS>choco uninstall wpfapp2.  Verify C:\\Programdata\\chocolatey\\lib\\wpfapp2 is removed.  Verify C:\\dips\\wpfapp2.exe is still present.  Remove the file manually.  Add the file chocolateyUninstall.ps1 to the exercise 5 directory.  Run choco pack to build.  Install the package again using the script from exercise 6.  PS>choco uninstall wpfapp2.  Verify C:\\dips\\wpfapp2.exe has been removed.",
             "title": "Exercise 07: Optional, Uninstall"
         }
     ]
