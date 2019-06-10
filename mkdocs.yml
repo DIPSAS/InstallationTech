@@ -14,6 +14,8 @@ nav:
     - '04: Set Script Permissions' : exercises/04-SetScriptPermissions.md
     - '05: Create Package' : exercises/05-CreatePackage.md
     - '06: Install Package' : exercises/06-ScriptToInstallPackage.md
+    - '07: UnInstall Package' : exercises/07-Uninstall.md
+    
   - Resources: resources.md
 
 # Repository
