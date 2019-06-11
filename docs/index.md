@@ -1,13 +1,5 @@
-# Course material
+# DIPS Installation technologies workshop
 
-## Prerequisites
+## Outline
 
-TODO
-
-## Clone the project
-
-TODO
-
-## Editor
-
-TODO
+This workshop is about the technologies and tools we use to construct our software artifacts and the mechanisms we give our customers to install our software.
