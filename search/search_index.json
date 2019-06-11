@@ -2,18 +2,13 @@
     "docs": [
         {
             "location": "/",
-            "text": "DIPS Installation technologies workshop\n\u00b6\n\n\nOutline\n\u00b6\n\n\nThis workshop is about the technologies and tools we use to construct our software artifacts and the mechanisms we give our customers to install our software.",
-            "title": "DIPS Installation technologies workshop"
+            "text": "Introduction\n\u00b6\n\n\nThis workshop is about the technologies and tools we use to construct our software artifacts and the mechanisms we give our customers to install our software.",
+            "title": "Introduction"
         },
         {
-            "location": "/#dips-installation-technologies-workshop",
-            "text": "",
-            "title": "DIPS Installation technologies workshop"
-        },
-        {
-            "location": "/#outline",
+            "location": "/#introduction",
             "text": "This workshop is about the technologies and tools we use to construct our software artifacts and the mechanisms we give our customers to install our software.",
-            "title": "Outline"
+            "title": "Introduction"
         },
         {
             "location": "/resources/",
